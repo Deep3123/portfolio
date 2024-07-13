@@ -39,7 +39,6 @@ Make sure you have Node.js and npm (or yarn) installed on your local machine.
 **Development**
 To start the development server and view the website:
 
-    ```bash
     npm run dev
     or
     yarn dev
@@ -49,7 +48,6 @@ This will start the Vite development server. Open http://localhost:3000 in your 
 **Building for Production**
 To build the optimized production bundle:
 
-    ```bash
     npm run build
     or
     yarn build
