@@ -2,6 +2,8 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const variants = {
   initial: {
@@ -31,19 +33,22 @@ const Contact = () => {
     
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
-        formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "service_8myse8m",
+        "template_w7tj78k",
+        e.target,
+        "rTqExoFbe5ESXLRp7"
       )
       .then(
         (result) => {
           setSuccess(true)
+          toast.success("Email sent successfully!");
         },
         (error) => {
           setError(true);
+          toast.error("Failed to send email!");
         }
       );
+      e.target.reset();
   };
 
   return (
@@ -114,6 +119,7 @@ const Contact = () => {
           <input type="email" required placeholder="Email" name="email" />
           <textarea rows={8} placeholder="Message" name="message" />
           <button>Submit</button>
+          <ToastContainer />
           {error && "Error"}
           {success && "Success"}
         </motion.form>
