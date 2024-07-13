@@ -57,14 +57,14 @@ To build the optimized production bundle:
 
 This command generates optimized production-ready files in the dist directory. These files are minified, bundled, and ready to be deployed to a web server.
 
-**Customization**
+## Customization
 Updating Content:
 
 1. Modify the components in the src/components directory to update the structure and content of your website.
 2. Update the data files, such as src/data/projects.js, to include details about your projects.
 3. Customize the styling using Tailwind CSS utility classes or extend with your own CSS in src/styles.
 
-**Deployment**
+## Deployment
 Deploy your built dist folder to your hosting provider of choice. Ensure your hosting environment supports single-page applications (SPAs) if you're using client-side routing.
 
 Project Link: [https://github.com/your-username/portfolio-vite-react](https://github.com/Deep3123/portfolio/)
