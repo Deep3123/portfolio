@@ -39,7 +39,7 @@ Make sure you have Node.js and npm (or yarn) installed on your local machine.
    or
    yarn install
 
-**Development**
+### Development
 To start the development server and view the website:
 
     npm run dev
@@ -48,7 +48,7 @@ To start the development server and view the website:
 
 This will start the Vite development server. Open http://localhost:3000 in your browser to see your portfolio website.
 
-**Building for Production**
+### Building for Production
 To build the optimized production bundle:
 
     npm run build
