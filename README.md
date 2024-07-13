@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website built with Vite and React.
 
-# Live Preview
+**Live Preview**
 You can view a live preview of the website here : https://portfolioatdeep.onrender.com/
 
 ## Features
