@@ -67,4 +67,4 @@ Updating Content:
 ## Deployment
 Deploy your built dist folder to your hosting provider of choice. Ensure your hosting environment supports single-page applications (SPAs) if you're using client-side routing.
 
-Project Link: [https://github.com/your-username/portfolio-vite-react](https://github.com/Deep3123/portfolio/)
+Project Link: (https://github.com/Deep3123/portfolio/)
