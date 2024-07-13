@@ -26,12 +26,12 @@ Make sure you have Node.js and npm (or yarn) installed on your local machine.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/portfolio-vite-react.git
+   git clone [https://github.com/your-username/portfolio-vite-react.git](https://github.com/Deep3123/portfolio.git)
 
 2. **Navigate into the project directory:**
 
    ```bash
-   cd portfolio-vite-react
+   cd portfolio
 
 3. **Install dependencies:**
    ```bash
