@@ -48,9 +48,15 @@ const Exp = () => {
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
         {/* <motion.div className="box"> */}
-        
+
         <p className='about'>
           Created 'Virtual Community Support' as part of a full-stack development internship at TatvaSoft. Leveraged AngularJS for dynamic frontend interactions, .NET for robust backend logic, and PostgreSQL for efficient data management. The website enhances community interaction, demonstrating hands-on experience in frontend development, backend integration, and database design.
+          <br/>
+          <br/>
+          Duration: June-2024 to July-2024
+          <br/>
+          <br/>
+          Github link: <a href="https://github.com/Deep3123/Tatvasoft-Internship" target="_blank" style={{ color: 'yellow' }}>https://github.com/Deep3123/Tatvasoft-Internship</a>
         </p>
         {/* </motion.div> */}
       </motion.div>

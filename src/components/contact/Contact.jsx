@@ -120,8 +120,6 @@ const Contact = () => {
           <textarea rows={8} placeholder="Message" name="message" />
           <button>Submit</button>
           <ToastContainer />
-          {error && "Error"}
-          {success && "Success"}
         </motion.form>
       </div>
     </motion.div>
