@@ -36,23 +36,13 @@
       }
     }
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
   .titleContainer {
     flex: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-<<<<<<< HEAD
-=======
-    @include mobile {
-      width: 100%;
-    }
-
->>>>>>> origin/main
     .title {
       display: grid;
       align-items: center;
@@ -102,10 +92,7 @@
       }
     }
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
   .listContainer {
     flex: 2;
     display: flex;
@@ -117,7 +104,6 @@
       width: 100%;
     }
 
-<<<<<<< HEAD
     .icon-row {
       display: flex;
       flex-wrap: wrap; /* Ensure icons wrap to next line if they exceed container width */
@@ -139,64 +125,11 @@
       @include mobile {
         width: 50px; /* Decrease size for smaller screens */
         height: 50px;
-=======
-    .box {
-      padding: 50px;
-      // border: 0.5px solid gray;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
-      @include mobile {
-        border: none;
-        align-items: center;
-        gap: 20px;
-        padding: 10px;
-      }
-
-      p {
-        @include mobile {
-          display: none;
-        }
-      }
-
-      button {
-        padding: 10px;
-        background-color: orange;
-        border: none;
-        cursor: pointer;
-
-        @include mobile {
-          background-color: transparent;
-          border: 1px solid orange;
-          border-radius: 5px;
-          color: orange;
-          width: 50%;
-          padding: 5px;
-        }
->>>>>>> origin/main
       }
     }
   }
 }
 
 .about {
-<<<<<<< HEAD
   font-size: 20px;
 }
-=======
-  font-size:20px;
-}
-
-.icon-row {
-  display: flex; /* Use flexbox to align items */
-  gap: 30px; /* Space between icons */
-}
-
-.icon {
-  width: 70px; /* Adjust width as needed */
-  height: 70px; /* Adjust height as needed */
-  border-radius: 50%; /* Make the image round */
-  object-fit:cover; /* Maintain aspect ratio */
-}
->>>>>>> origin/main

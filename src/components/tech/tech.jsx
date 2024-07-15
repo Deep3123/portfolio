@@ -66,14 +66,11 @@ const Tech = () => {
           <img src="mongo.png" alt="Icon 3" class="icon" />
           <img src="mysql.png" alt="Icon 3" class="icon" />
           <img src="postgresql.png" alt="Icon 3" class="icon" />
-<<<<<<< HEAD
           <img src="machine.jpg" alt="Icon 3" class="icon" />
           <img src="deep.jpg" alt="Icon 3" class="icon" />
           <img src="nlp.jpg" alt="Icon 3" class="icon" />
           <img src="aiml.jpg" alt="Icon 3" class="icon" />
           <img src="data.jpg" alt="Icon 3" class="icon" />
-=======
->>>>>>> origin/main
         </div>
       </motion.div>
     </motion.div>
